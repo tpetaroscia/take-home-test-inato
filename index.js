@@ -2,11 +2,11 @@ import { Drug, Pharmacy } from "./pharmacy";
 import fs from "fs";
 
 const drugs = [
-  new Drug("Doliprane", 20, 30),
-  new Drug("Herbal Tea", 10, 5),
-  new Drug("Fervex", 5, 40),
-  new Drug("Magic Pill", 15, 40),
-  //new Drug("Dafalgan", 15, 50)
+  new Drug("Doliprane", "T0", 1, 20, 30),
+  new Drug("Herbal Tea", "T1", 1, 10, 5),
+  new Drug("Fervex", "T2", 1, 5, 40),
+  new Drug("Magic Pill", "T9", 1, 15, 40),
+  new Drug("Dafalgan", "T0", 2, 15, 50)
 ];
 const trial = new Pharmacy(drugs);
 
